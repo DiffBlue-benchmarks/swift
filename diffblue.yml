@@ -1,2 +1,2 @@
 buildCmd: "git init; mvn compile -Dgit-commit-id-plugin.skip"
-testCmd: "mvn test"
+testCmd: "mvn test -Dgit-commit-id-plugin.skip"
