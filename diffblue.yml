@@ -8,7 +8,7 @@ phases:
   cbmcArguments:
     classpath: '/tools/cbmc/models-simple-overlay.jar:/tools/cbmc/models.jar:.'
     depth: false
-    java-max-input-array-length: 10
+    max-nondet-array-length: 10
     java-max-vla-length: 33
     java-throw-runtime-exceptions: false
     string-max-input-length: 10
@@ -23,7 +23,7 @@ phases:
   cbmcArguments:
     classpath: '/tools/cbmc/models-simple-overlay.jar:/tools/cbmc/models.jar:.'
     depth: false
-    java-max-input-array-length: 20
+    max-nondet-array-length: 20
     java-max-vla-length: 33
     java-throw-runtime-exceptions: false
     string-max-input-length: 100
@@ -38,7 +38,7 @@ phases:
   cbmcArguments:
     classpath: '/tools/cbmc/models-simple-overlay.jar:/tools/cbmc/models.jar:.'
     depth: false
-    java-max-input-array-length: 30
+    max-nondet-array-length: 30
     java-max-vla-length: 33
     java-throw-runtime-exceptions: true
     string-max-input-length: 10
